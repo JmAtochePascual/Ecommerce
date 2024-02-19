@@ -1,0 +1,29 @@
+body {
+  font-size: var(--paragraph--desktop);
+  line-height: var(--line);
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.2rem;
+}
+
+/* HEADER */
+
+.header__title {
+  padding: 2.4rem;
+}
+
+.header__menu {
+  padding: 2.4rem 0;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: .8rem;
+}

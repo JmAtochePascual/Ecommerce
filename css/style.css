@@ -4,13 +4,13 @@
 	--secondary-Font: 'sans serif';
 
 	/* Colors */
-	--primary-color: #fff;
+	--primary-color: #037bc0;
 	--secondary-color: #fff;
 	--tertiary-color: #fff;
 
 	/* Sizes */
 	--paragraph--movil: 1.4rem;
-	--paragraph--desltop: 1.6rem;
+	--paragraph--desktop: 1.6rem;
 
 	/* Line-Height */
 	--line: 1.5;
@@ -30,6 +30,7 @@ html {
 
 body {
 	min-width: 32rem;
+	font-family: var(--primary-Font);
 	font-size: var(--paragraph--movil);
 	line-height: var(--line);
 }
@@ -41,9 +42,20 @@ h4,
 h5,
 h6 {
 	margin: 0;
+	text-align: center;
 }
 
-p {}
+h1 {
+	font-size: 2.8rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+}
 
 a {
 	text-decoration: none;
@@ -64,6 +76,34 @@ input {
 
 [class*="__container"] {
 	width: 95%;
-	max-width: 140.4rem;
+	max-width: 144rem;
 	margin: 0 auto;
+}
+
+/* HEADER */
+
+.header__title {
+	padding: 1.6rem;
+}
+
+.header__span {
+	color: var(--primary-color);
+}
+
+.header__menu {
+	padding: 1.6rem 0;
+	border-top: 1px solid #e1e1e1;
+	display: flex;
+	flex-direction: column;
+	gap: .8rem;
+}
+
+.header__link {
+	display: block;
+	text-align: center;
+	font-weight: bold;
+}
+
+.header__link--select {
+	color: var(--primary-color);
 }
