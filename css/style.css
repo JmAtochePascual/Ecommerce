@@ -7,6 +7,7 @@
 	--primary-color: #037bc0;
 	--secondary-color: #303030;
 	--tertiary-color: #fff;
+	--comodin-color: #8cbc00;
 
 	/* Sizes */
 	--paragraph--movil: 1.4rem;
@@ -178,4 +179,56 @@ input {
 
 .nosotros__titulo {
 	color: var(--tertiary-color);
+}
+
+/* PRODUCTOS */
+.productos {
+	padding: 2.4rem;
+}
+
+.productos__grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: .8rem;
+}
+
+.producto {
+	background-color: var(--primary-color);
+}
+
+.producto__img {
+	width: 100%;
+	height: 20rem;
+	object-fit: cover;
+}
+
+.producto__content {
+	padding: 2rem;
+}
+
+.producto__title {
+	color: var(--tertiary-color);
+}
+
+.producto__copy,
+.producto__precio {
+	margin-bottom: .8rem;
+	text-align: center;
+	color: var(--tertiary-color);
+}
+
+.producto__precio {
+	font-size: 2.8rem;
+	font-weight: 900;
+}
+
+.producto__buttom {
+	width: 100%;
+	border: none;
+	padding: .8rem;
+	display: block;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: var(--tertiary-color);
+	background-color: var(--comodin-color);
 }
