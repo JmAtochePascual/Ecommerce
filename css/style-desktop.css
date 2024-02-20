@@ -50,7 +50,7 @@ h3 {
 
 /* PRODUCTOS */
 .productos {
-  padding: 4rem;
+  padding: 4rem 0;
 }
 
 .producto__buttom:hover {
