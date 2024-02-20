@@ -1,3 +1,13 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
 h1 {
   font-size: 4.8rem;
 }
@@ -14,9 +24,6 @@ h3 {
   padding-top: 3.2rem;
 }
 
-.header__title {
-  margin-bottom: 3.2rem;
-}
 
 .header__menu {
   padding: 2.8rem 0;
@@ -29,4 +36,18 @@ h3 {
 /* HERO */
 .hero {
   height: 70rem;
+}
+
+/* CATEGORIA DE PRODUCTOS */
+.categoria {
+  padding-top: 3.2rem;
+}
+
+.categoria__grid {
+  /* gap: 2.4rem; */
+}
+
+.categoria__iten:hover .categoria__link {
+  color: var(--tertiary-color);
+  background-color: var(--primary-color);
 }

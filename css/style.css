@@ -42,8 +42,9 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0;
+	margin-bottom: 1.6rem;
 	text-align: center;
+	color: #1d1d1d;
 }
 
 h1 {
@@ -87,10 +88,6 @@ input {
 	padding-top: 1.6rem;
 }
 
-.header__title {
-	margin-bottom: 1.6rem;
-}
-
 .header__span {
 	color: var(--primary-color);
 }
@@ -123,4 +120,35 @@ input {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+/* CATEGORIA DE PRODUCTOS */
+.categoria {
+	padding-top: 1.6rem;
+}
+
+.categoria__grid {
+	display: grid;
+	grid-template-columns: minmax(25rem, 40rem);
+	justify-content: center;
+	gap: 1.6rem;
+}
+
+.categoria__iten {
+	border-bottom-left-radius: .8rem;
+	border-bottom-right-radius: .8rem;
+	overflow: hidden;
+}
+
+.categoria__img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.categoria__link {
+	padding: 1.6rem;
+	display: block;
+	text-align: center;
+	transition: all .3s ease-in-out;
 }
