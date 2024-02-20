@@ -58,3 +58,8 @@ h3 {
   cursor: pointer;
   background-color: #759c00;
 }
+
+/* SOBRE-NOSOTROS */
+.sobre-nosotros {
+  padding-bottom: 4rem;
+}

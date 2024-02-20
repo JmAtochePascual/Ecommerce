@@ -125,3 +125,12 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
   gap: 8rem;
 }
+
+/* SOBRE-NOSOTROS */
+.sobre-nosotros {
+  padding-bottom: 3.2rem;
+}
+
+.sobre-nosotros_grid {
+  grid-template-columns: 1fr 1fr;
+}
