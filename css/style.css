@@ -1,7 +1,7 @@
 :root {
 	/* Fonts */
-	--primary-Font: 'sans serif';
-	--secondary-Font: 'sans serif';
+	--primary-Font: "Playfair Display", serif;
+	--secondary-Font: "Raleway", sans-serif;
 
 	/* Colors */
 	--primary-color: #037bc0;
@@ -30,7 +30,7 @@ html {
 
 body {
 	min-width: 32rem;
-	font-family: var(--primary-Font);
+	font-family: var(--secondary-Font);
 	font-size: var(--paragraph--movil);
 	line-height: var(--line);
 	color: var(--secondary-color);
@@ -43,6 +43,7 @@ h4,
 h5,
 h6 {
 	margin-bottom: 1.6rem;
+	font-family: var(--primary-Font);
 	text-align: center;
 	color: #1d1d1d;
 }
