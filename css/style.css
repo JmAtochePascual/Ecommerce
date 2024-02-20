@@ -42,7 +42,7 @@ h3,
 h4,
 h5,
 h6 {
-	margin-bottom: 1.6rem;
+	margin-bottom: 2.4rem;
 	font-family: var(--primary-Font);
 	text-align: center;
 	color: #1d1d1d;
@@ -86,7 +86,7 @@ input {
 
 /* HEADER */
 .header {
-	padding-top: 1.6rem;
+	padding-top: 2.4rem;
 }
 
 .header__span {
@@ -125,7 +125,7 @@ input {
 
 /* CATEGORIA DE PRODUCTOS */
 .categoria {
-	padding-top: 1.6rem;
+	padding: 2.4rem 0;
 }
 
 .categoria__grid {
@@ -152,4 +152,30 @@ input {
 	display: block;
 	text-align: center;
 	transition: all .3s ease-in-out;
+}
+
+/* SOBRE NOSOTROS */
+.nosotros {
+	max-width: 144rem;
+	margin: 0 auto;
+	background-image: linear-gradient(to bottom, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/nosotros.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-size: 100%, 80rem;
+}
+
+.nosotros__grid {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+}
+
+.nosotros__copy {
+	padding: 8rem 0;
+	grid-row: 2/3;
+	color: var(--tertiary-color);
+	text-align: center;
+}
+
+.nosotros__titulo {
+	color: var(--tertiary-color);
 }

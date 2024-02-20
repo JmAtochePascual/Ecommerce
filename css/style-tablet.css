@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-bottom: 2.4rem;
+  margin-bottom: 3.2rem;
   text-align: center;
 }
 
@@ -28,7 +28,7 @@ h3 {
 /* HEADER */
 
 .header {
-  padding-top: 2.4rem;
+  padding-top: 3.2rem;
 }
 
 .header__menu {
@@ -45,9 +45,27 @@ h3 {
 
 /* CATEGORIA DE PRODUCTOS */
 .categoria {
-  padding-top: 2.4rem;
+  padding: 3.2rem 0;
 }
 
 .categoria__grid {
   grid-template-columns: repeat(3, 1fr);
+}
+
+/* SOBRE NOSOTROS */
+.nosotros {
+  background-image: linear-gradient(to right, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/nosotros.jpg");
+  background-position: top left;
+  background-size: 100%, 80rem;
+}
+
+.nosotros__grid {
+  grid-template-rows: unset;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.nosotros__copy {
+  padding: 6rem;
+  grid-row: unset;
+  grid-column: 2 / 3;
 }
