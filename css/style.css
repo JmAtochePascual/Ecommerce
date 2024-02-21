@@ -344,3 +344,20 @@ input {
 .blog-aside {
 	padding-left: 1.6rem;
 }
+
+/* GALERIA */
+.galeria {
+	padding: 2.4rem 0;
+}
+
+.galeria__grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: .8rem;
+}
+
+.galeria__img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}

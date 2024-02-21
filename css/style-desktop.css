@@ -76,3 +76,8 @@ h3 {
 .blog-aside__title {
   text-align: left;
 }
+
+/* GALERIA */
+.galeria {
+  padding: 3.2rem 0;
+}

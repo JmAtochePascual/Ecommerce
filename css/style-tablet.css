@@ -156,3 +156,16 @@ h3 {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
 }
+
+/* GALERIA */
+.galeria {
+  padding: 3.2rem 0;
+}
+
+.galeria__grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.galeria__img {
+  height: 100%;
+}
