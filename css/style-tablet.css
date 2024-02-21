@@ -134,3 +134,25 @@ h3 {
 .sobre-nosotros_grid {
   grid-template-columns: 1fr 1fr;
 }
+
+/* NUESTRO BLOG */
+
+.blog__grid {
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.blog-iten:nth-child(2) {
+  grid-column: 1 / 2;
+}
+
+.blog-iten__caption {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blog-aside {
+  padding-left: 1rem;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}

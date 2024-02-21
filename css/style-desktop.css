@@ -63,3 +63,16 @@ h3 {
 .sobre-nosotros {
   padding-bottom: 4rem;
 }
+
+/* NUESTRO BLOG */
+.blog__grid {
+  gap: 8rem;
+}
+
+.blog-iten__button {
+  max-width: 40rem;
+}
+
+.blog-aside__title {
+  text-align: left;
+}
