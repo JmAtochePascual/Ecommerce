@@ -169,3 +169,12 @@ h3 {
 .galeria__img {
   height: 100%;
 }
+
+/* FORMULARIO */
+.formulario {
+  padding: 3.2rem 0;
+}
+
+.formulario__campo {
+  grid-template-columns: 8rem 1fr;
+}
