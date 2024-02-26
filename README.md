@@ -21,8 +21,6 @@ El proyecto es una página web completa que sirve como plataforma de venta de mu
 
 - **HTML5**: Lenguaje de marcado para la estructura de la página.
 - **CSS3**: Estilos para el diseño y presentación.
-- **JavaScript**: Implementación de interactividad y funcionalidades dinámicas.
-- **Google Fonts**: Fuente utilizada para estilos de texto.
 - **Responsive Design**: Diseño adaptable para dispositivos móviles y de escritorio.
 
 ## Estructura del Proyecto
