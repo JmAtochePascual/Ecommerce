@@ -10,7 +10,8 @@ Este proyecto es una página web diseñada para una tienda de muebles en línea.
 4. [Uso](#uso)
 5. [Instalación](#instalación)
 6. [Contribución](#contribución)
-7. [Licencia](#licencia)
+7. [Imagen de Referencia](#imagen-de-rereferencia)
+8. [Ver Proyecto en la WEB](#ver-proyecto-en-la-web)
 
 ## Descripción
 
@@ -50,14 +51,22 @@ No se requiere instalación adicional para utilizar este proyecto.
 Si deseas contribuir al proyecto, sigue estos pasos:
 
 1. Haz un fork del repositorio.
-2. Crea una nueva rama (`git checkout -b feature/feature-name`).
+2. Crea una nueva rama (`git checkout -b feature-name`).
 3. Realiza tus cambios y haz commit (`git commit -am 'Add new feature'`).
-4. Sube la rama (`git push origin feature/feature-name`).
+4. Sube la rama (`git push origin feature-name`).
 5. Abre un Pull Request.
 
 ## Licencia
 
 Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
+
+## Imagen de Rereferencia
+
+![](https://i.postimg.cc/R0xMrywt/ecommerce-Tienda-Muebles.png)
+
+## Ver Proyecto en la WEB
+
+[ver Proyecto](URL_del_enlace)
 
 ---
 
