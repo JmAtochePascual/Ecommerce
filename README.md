@@ -1,8 +1,8 @@
-# Ecommerce Muebles
+# ⚡️Ecommerce Muebles
 
 Este proyecto es una página web diseñada para una tienda de muebles en línea. Proporciona una experiencia intuitiva y atractiva para que los usuarios naveguen por diferentes categorías de productos y encuentren información relevante sobre la tienda.
 
-## Contenido
+## 🎯Contenido
 
 1. [Descripción](#descripción)
 2. [Tecnologías y Herramientas](#tecnologías-y-herramientas)
@@ -13,17 +13,17 @@ Este proyecto es una página web diseñada para una tienda de muebles en línea.
 7. [Imagen de Referencia](#imagen-de-rereferencia)
 8. [Ver Proyecto en la WEB](#ver-proyecto-en-la-web)
 
-## Descripción
+## 📝Descripción
 
 El proyecto es una página web completa que sirve como plataforma de venta de muebles en línea. Ofrece una experiencia de usuario atractiva y fácil de usar, con secciones que incluyen la página principal, información sobre la empresa, catálogo de productos, blog, galería y formulario de contacto.
 
-## Tecnologías y Herramientas
+## 🛠️Tecnologías y Herramientas
 
 - **HTML5**: Lenguaje de marcado para la estructura de la página.
 - **CSS3**: Estilos para el diseño y presentación.
 - **Responsive Design**: Diseño adaptable para dispositivos móviles y de escritorio.
 
-## Estructura del Proyecto
+## 🚀Estructura del Proyecto
 
 - **css/**: Carpeta que contiene archivos CSS para diferentes tamaños de pantalla.
 - **img/**: Carpeta con imágenes utilizadas en la página.
@@ -34,17 +34,17 @@ El proyecto es una página web completa que sirve como plataforma de venta de mu
 - **galeria.html**: Imágenes de productos y proyectos.
 - **contacto.html**: Formulario de contacto.
 
-## Uso
+## 🧑‍💻Uso
 
 Para empezar, simplemente abre el archivo `index.html` en tu navegador web preferido y explora las diferentes secciones de la tienda.
 
 ¡Disfruta de tu experiencia de compra en línea con Tienda Muebles!
 
-## Instalación
+## 📌Instalación
 
 No se requiere instalación adicional para utilizar este proyecto.
 
-## Contribución
+## 🏗️Contribución
 
 Si deseas contribuir al proyecto, sigue estos pasos:
 
@@ -54,15 +54,15 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 4. Sube la rama (`git push origin feature-name`).
 5. Abre un Pull Request.
 
-## Licencia
+## ✨Licencia
 
 Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
-## Imagen de Rereferencia
+## 🙈Imagen de Rereferencia
 
 ![](https://i.postimg.cc/R0xMrywt/ecommerce-Tienda-Muebles.png)
 
-## Ver Proyecto en la WEB
+## 🌐Ver Proyecto en la WEB
 
 [ver Proyecto en la WEB](https://jmatochepacual.github.io/Ecommerce/)
 
