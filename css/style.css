@@ -1,18 +1,18 @@
 @font-face {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display';
 	src: url(../fonts/playfairDisplay/PlayfairDisplay-Bold.ttf);
 	font-weight: 700;
 	font-style: bold;
 }
 
 @font-face {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display';
 	src: url(../fonts/playfairDisplay/PlayfairDisplay-Black.ttf);
 	font-weight: 900;
 }
 
 @font-face {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway';
 	src: url(../fonts/raleway/Raleway-Regular.ttf);
 	font-weight: normal;
 	font-style: normal;
