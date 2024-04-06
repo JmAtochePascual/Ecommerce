@@ -5,8 +5,31 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ecommerce - Nosotros</title>
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- meta -->
+	<meta name="robots" content="index, follow">
+	<meta property="og:title" content="Tienda Muebles">
+	<meta property="og:image" content="https://i.postimg.cc/R0xMrywt/ecommerce-Tienda-Muebles.png">
+	<meta property="og:url" content="https://jmatochepacual.github.io/Ecommerce/blog.html">
 	<meta name="description"
-		content="Descubre la mejor selección de muebles para tu hogar, oficina y cocina en nuestra tienda en línea. Explora nuestra amplia gama de productos de alta calidad, desde elegantes diseños hasta soluciones prácticas para cada espacio. ¡Encuentra todo lo que necesitas para crear el ambiente perfecto en Tienda de Muebles">
+		content="Conoce la historia detrás de Tienda Muebles, tu socio confiable en la búsqueda de muebles perfectos para cada espacio. Desde nuestros humildes comienzos hasta convertirnos en líderes en el diseño de interiores, nuestra misión ha sido siempre ofrecer productos de calidad, innovación y diseño excepcional. Descubre cómo nuestros valores de sostenibilidad, calidad y servicio al cliente nos definen y cómo nos esforzamos por enriquecer los hogares y oficinas de nuestros clientes.">
+
 	<!-- CSS -->
 	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="./css/style-tablet.css" media="screen and (min-width:768px)">
@@ -39,7 +62,12 @@
 
 				<div class="sobre-nosotros_grid">
 					<figure>
-						<img class="sobre-nosotros__img" src="./img/nosotros.jpg" alt="imagen sobre nosotros">
+						<picture>
+							<source srcset="./img/nosotros.avif" type="image/avif">
+							<source srcset="./img/nosotros.webp" type="image/webp">
+							<img class="sobre-nosotros__img" src="./img/nosotros.jpg" alt="Montaña" loading="lazy" width="300"
+								height="300">
+						</picture>
 					</figure>
 
 					<div class="sobre-nosotros__copy">
