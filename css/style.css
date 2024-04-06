@@ -143,6 +143,18 @@ select {
 	background-size: cover;
 }
 
+@supports (background-image: url('../img/principal.webp')) {
+	.hero {
+		background-image: url("../img/principal.webp");
+	}
+}
+
+@supports (background-image: url('../img/principal.avif')) {
+	.hero {
+		background-image: url("../img/principal.avif");
+	}
+}
+
 /* CATEGORIA DE PRODUCTOS */
 .categoria {
 	padding: 2.4rem 0;
@@ -182,6 +194,18 @@ select {
 	background-repeat: no-repeat;
 	background-position: top center;
 	background-size: 100%, 80rem;
+}
+
+@supports (background-image: url('../img/nosotros.webp')) {
+	.nosotros {
+		background-image: linear-gradient(to bottom, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/nosotros.webp");
+	}
+}
+
+@supports (background-image: url('../img/nosotros.avif')) {
+	.nosotros {
+		background-image: linear-gradient(to bottom, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/nosotros.avif");
+	}
 }
 
 .nosotros__grid {

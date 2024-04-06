@@ -59,6 +59,18 @@ h3 {
   background-size: 100%, 80rem;
 }
 
+@supports (background-image: url('../img/nosotros.webp')) {
+  .nosotros {
+    background-image: linear-gradient(to right, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/nosotros.webp");
+  }
+}
+
+@supports (background-image: url('../img/nosotros.avif')) {
+  .nosotros {
+    background-image: linear-gradient(to right, transparent 50%, var(--primary-color) 50%, var(--primary-color) 100%), url("../img/nosotros.avif");
+  }
+}
+
 .nosotros__grid {
   grid-template-rows: unset;
   grid-template-columns: repeat(2, 1fr);
