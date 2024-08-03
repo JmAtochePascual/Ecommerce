@@ -64,7 +64,7 @@ Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
 ## 🌐Ver Proyecto en la WEB
 
-[ver Proyecto en la WEB](https://jmatochepacual.github.io/Ecommerce/)
+[ver Proyecto en la WEB](https://jmatochepascual.github.io/Ecommerce/)
 
 ---
 
